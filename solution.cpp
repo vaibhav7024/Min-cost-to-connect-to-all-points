@@ -1,6 +1,7 @@
 class Solution {
 public:
     int minCostConnectPoints(vector<vector<int>>& points) {
+        
         int n=points.size();
         priority_queue<pair<int,int>, vector<pair<int,int>>, greater<pair<int,int>>> pq;
         vector<bool>mst(n,false);
